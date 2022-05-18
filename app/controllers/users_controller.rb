@@ -23,7 +23,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       session[:user_id] = @user.id
-      flash[:notice] = "Welcome #{@user.username} to the Alpha Blog! You have successfully signed up!"
+      flash[:notice] = "Welcome #{@user.username} to Alpha Blog! You have successfully signed up!"
       redirect_to @user
     else
       render 'new'
@@ -47,6 +47,7 @@ class UsersController < ApplicationController
   end
 
   private
+  
   def set_user
     @user = User.find(params[:id])
   end

@@ -17,4 +17,4 @@ This web application is the first one built while doing “The Complete Ruby on 
 * Ruby version = 2.7.5
 * Rails version = 6.1.4.4
 * Bootstrap version = 4.6.1
-* Status: In Development
+* Status: Completed
