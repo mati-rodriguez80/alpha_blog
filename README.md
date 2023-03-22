@@ -1,15 +1,16 @@
-# ALPHA BLOG APP
+# Alpha Blog App
 
-This web application is the first one built while doing “The Complete Ruby on Rails Developer Course” on Udemy. The goal with this app is to learn some of the next topics writing almost everything from scratch:
+This web application was the first one built while doing “The Complete Ruby on Rails Developer Course” on Udemy. The goal with this app was to learn some of the next topics writing almost everything from scratch:
 
 * Build a front-end layout
 * Build an authentication system where users can sign up to use the application
 * Implement flash messaging functionality
-* Build an admin user functionality where the admin user has a different level of access than regular users
+* Build an admin user functionality where the admin has a different level of access than regular users
+* Understand MVC structure, CRUD operations, associations, and TDD
 * Browse blog posts that are in the application written by other users or yourself
 * Look at other users which are using the application
-* Implement pagination
 * Look at posts based on categories
+* Implement pagination
 * Etc.
 
 ## Clone Repository
